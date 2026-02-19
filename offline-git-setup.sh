@@ -14,6 +14,7 @@ fi
 
 cd $GIT_CACHE_DIR
 
+git clone https://github.com/MariaDB/server.git
 git clone https://github.com/mariadb-corporation/libmarias3.git
 git clone https://github.com/mariadb-corporation/mariadb-columnstore-engine.git
 git clone https://github.com/MariaDB/mariadb-connector-c.git
