@@ -14,7 +14,8 @@ fi
 
 cd $GIT_CACHE_DIR
 
-git clone https://github.com/MariaDB/server.git
+git clone --mirror https://github.com/MariaDB/server.git server
+
 git clone https://github.com/mariadb-corporation/libmarias3.git
 git clone https://github.com/mariadb-corporation/mariadb-columnstore-engine.git
 git clone https://github.com/MariaDB/mariadb-connector-c.git
@@ -23,5 +24,6 @@ git clone https://github.com/facebook/rocksdb.git
 git clone https://github.com/wolfSSL/wolfssl.git
 git clone https://github.com/codership/wsrep-API.git
 git clone https://github.com/codership/wsrep-lib.git
-git clone https://github.com/mysql/mysql-server.git
+
+git clone --mirror https://github.com/mysql/mysql-server.git mysql-server
 
